@@ -3,7 +3,7 @@ import { Tools } from "../utils/constant";
 export default function Button() {
   console.log(Tools);
   return (
-    <>
+    <div className="">
       {Tools.map((tool) => (
         <div key={tool.id} className="mb-10">
           <span className={tool.color}>{tool.label}</span>
@@ -32,6 +32,6 @@ export default function Button() {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }

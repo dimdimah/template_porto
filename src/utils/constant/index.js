@@ -113,6 +113,17 @@ const Projects = [
     btnLink: "https://colorhunt.co/palettes/dark",
     btnLabel: "View Website",
   },
+  {
+    id: 4,
+    title: "UI/UX Review Check",
+    description:
+      "Because it&apos;s about motivating the doers. Because I&apos;m here to follow my dreams and inspire others.",
+    date: "Jun ’21 - Jan ’22",
+    jobTitle: "Ui/UX Design Check",
+    link: "https://unsplash.com/photos/computer-programming-codes-displayed-on-a-monitor-MgtHZ4zlC1U",
+    btnLink: "https://colorhunt.co/palettes/dark",
+    btnLabel: "View Website",
+  },
 ];
 
 export { QuickIntro, Header, Projects, Tools };
